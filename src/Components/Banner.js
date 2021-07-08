@@ -11,7 +11,7 @@ const Banner = () => {
               <div class='caption center-align white-text'>
                 <h2> &lt;/&gt;</h2>
                 <h6 class='light text-lighten-3'>
-                  <span style={{ color: "#474747" }}>Freelance WEB</span>{" "}
+                  <span style={{ color: "#F5D76E" }}>Freelance WEB</span>{" "}
                   developer
                 </h6>
                 <div class='row '>
@@ -31,7 +31,7 @@ const Banner = () => {
               <div class='caption center-align white-text'>
                 <h2> &lt;/&gt;</h2>
                 <h6 class='light text-lighten-3'>
-                  <span style={{ color: "#474747" }}>Freelance WEB</span>{" "}
+                  <span style={{ color: "#F5D76E" }}>Freelance WEB</span>{" "}
                   developer
                 </h6>
                 <div class='row '>
@@ -51,7 +51,7 @@ const Banner = () => {
               <div class='caption center-align white-text'>
                 <h2> &lt;/&gt;</h2>
                 <h6 class='light text-lighten-3'>
-                  <span style={{ color: "#474747" }}>Freelance WEB</span>{" "}
+                  <span style={{ color: "#F5D76E" }}>Freelance WEB</span>{" "}
                   developer
                 </h6>
 
