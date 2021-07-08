@@ -27,7 +27,7 @@ const Footer = () => {
             </p>
             <div>
               <a href='https://github.com/thecyberbaby'>
-                <img src='images/icons/github.ico' alt='github' />
+                <img src='images/icons/github.png' alt='github' />
               </a>
 
               <a
