@@ -2,36 +2,41 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div>
-      <div className='col center l12 s12 skills '>
+    <div id='skills'>
+      <div className='col center l12 s12'>
         <h2>My Skills</h2>
       </div>
-      <section className='fprogress' id='skills'>
+      <section className='fprogress  skills'>
         <div className='row container'>
           <div className='col l6 s12 white-text '>
             <p>LINUX - 75% (RHEL, Debian)</p>
             <div id='myProgress'>
               <div id='myBar' style={{ width: "75%" }}></div>
             </div>
+
             <p>JAVASCRIPT - 70%</p>
             <div id='myProgress'>
               <div id='myBar' style={{ width: "70%" }}></div>
             </div>
+
             <p>REACT - 65%</p>
             <div id='myProgress'>
               <div id='myBar' style={{ width: "65%" }}></div>
             </div>
-            <p>PYTHON 3 - 70%</p>
-            <div id='myProgress'>
-              <div id='myBar' style={{ width: "70%" }}></div>
-            </div>
-            <p>VS CODE - 85%</p>
-            <div id='myProgress'>
-              <div id='myBar' style={{ width: "85%" }}></div>
-            </div>
+
             <p>HTML CSS - 80%</p>
             <div id='myProgress'>
               <div id='myBar' style={{ width: "80%" }}></div>
+            </div>
+
+            <p>MY SQL - 60%</p>
+            <div id='myProgress'>
+              <div id='myBar' style={{ width: "60%" }}></div>
+            </div>
+
+            <p>VS CODE - 85%</p>
+            <div id='myProgress'>
+              <div id='myBar' style={{ width: "85%" }}></div>
             </div>
 
             <section id='skills' className='skills'>
@@ -43,13 +48,7 @@ const Skills = () => {
                   />
                   <h6 className='white-text center'>Javascript</h6>
                 </a>
-                <a className='carousel-item' href='#two!'>
-                  <img
-                    src='images/thumbnails/python.png'
-                    alt='python thumbnail'
-                  />
-                  <h6 className='white-text center'>Python</h6>
-                </a>
+
                 <a className='carousel-item' href='#three!'>
                   <img
                     src='images/thumbnails/bootstrap.png'
@@ -106,14 +105,13 @@ const Skills = () => {
                   />
                   <h6 className='white-text center'>Adobe-XD</h6>
                 </a>
-                {/* <h5 className='center'>swipe</h5> */}
               </div>
             </section>
           </div>
-          <div className='col l6 s12 right'>
+          <div className='col l5 s12 right skillSvg'>
             <img src='/images/vectors/sklills.svg' alt='skills svg' />
           </div>
-        </div>{" "}
+        </div>
       </section>
       <hr class='container' />
     </div>

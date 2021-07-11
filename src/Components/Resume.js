@@ -32,7 +32,7 @@ const Resume = () => {
               Resume
             </a>
             <a
-              className='waves-effect waves-light btn-small slide-btn'
+              className='waves-effect  waves-light btn-small slide-btn'
               href='...'>
               Full CV
             </a>
@@ -41,13 +41,12 @@ const Resume = () => {
                 <div className='center white-text'>
                   <h5>Certifications</h5>
                 </div>
-                <a className='carousel-item' href='#one!'>
-                  <img
-                    src='docs/certificates/ReactNativeCertificate.png'
-                    alt='react native'
-                  />
-                  <h6 className='white-text center'>React Native</h6>
+
+                <a class='carousel-item' href='#two!'>
+                  <img src='docs/certificates/mySql.png' alt='MySql' />
+                  <h6 className='white-text center'>My SQL</h6>
                 </a>
+
                 <a class='carousel-item' href='#two!'>
                   <img
                     src='docs/certificates/ReactJS-Certificate.png'
@@ -55,19 +54,10 @@ const Resume = () => {
                   />
                   <h6 className='white-text center'>React JS</h6>
                 </a>
-                <a className='carousel-item' href='#three!'>
-                  <img
-                    src='docs/certificates/python_lco_certificate.png'
-                    alt='python 3'
-                  />
-                  <h6 className='white-text center'>Python 3</h6>
-                </a>
-                <a className='carousel-item' href='#four!'>
-                  <img
-                    src='docs/certificates/MERNcertificate.png'
-                    alt='mern stack'
-                  />
-                  <h6 className='white-text center'>MERN Full Stack</h6>
+
+                <a class='carousel-item' href='#two!'>
+                  <img src='docs/certificates/htmlCss.png' alt='HtmlCss' />
+                  <h6 className='white-text center'>HTML5 CSS3</h6>
                 </a>
               </div>
             </div>

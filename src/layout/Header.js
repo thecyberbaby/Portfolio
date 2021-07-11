@@ -9,7 +9,7 @@ const Header = () => {
             <div className='nav-wrapper'>
               <a href='#navbar' className='brand-logo '>
                 {" "}
-                &lt;Nishant/&gt;{" "}
+                &lt;Nishant /&gt;{" "}
               </a>
               <a
                 href='...'

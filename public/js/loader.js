@@ -1,14 +1,9 @@
 $(document).ready(function () {
-  $(".modal").modal();
   $(".sidenav").sidenav();
-  $(".slider").slider({ full_width: true, height: 550 });
+  $(".slider").slider({ full_width: true, height: 420 });
+  $("#portfolio").slider({ full_width: true, height: 220 });
   $(".carousel").carousel();
 });
-
-function toggleModal() {
-  var instance = M.Modal.getInstance($("#modal3"));
-  instance.open();
-}
 
 var btn = $("#button");
 

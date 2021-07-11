@@ -126,8 +126,12 @@ nav {
   border-radius: 2px;
   background-color: #430b70;
   margin-top: 20px;
-  margin-left: 0px;
+  margin-left: 10px;
   position: relative;
+}
+
+.slider .indicators {
+  display: none;
 }
 .slider .indicators .indicator-item.active {
   background-color: #000000;
@@ -152,7 +156,6 @@ nav {
 }
 /* skills */
 .skills {
-  /* height: 100vh; */
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -181,6 +184,14 @@ nav {
 }
 .card .card-reveal {
   background-color: #343a40;
+}
+
+/* portfolio */
+#portfolio {
+  height: 100vh;
+}
+#portfolio .slider .slides li {
+  height: 350px;
 }
 
 /* contact */
@@ -212,4 +223,22 @@ nav {
   background-color: #000000;
   padding-top: 30px;
   padding-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .skillSvg {
+    display: none;
+  }
+  #portfolio .slider .slides li img {
+    height: 220px;
+  }
+  #portfolio .slider ul {
+    height: 220px;
+  }
+  .portfolio {
+    height: 340px;
+  }
+  .portfolio-col-2 {
+    height: 340px;
+  }
 }
